@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/509c360afa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class=" max-w-7xl mx-auto px-5 py-5 lg:flex lg:gap-10">
+
+    <!-- Left Section -->
+    <div class="lg:w-1/3">
+
+      <div class="text-center my-2 lg:text-left">
+        <h2 class="font-bold text-2xl lg:text-3xl">Welcome Back</h2>
+        <p class="lg:text-xl lg:max-w-md">Log in to continue playing quizzes and track your progress.</p>
+      </div>
+
+      <div class="">
+        <!--Form Details -->
+        <div class="flex flex-col gap-2 lg:mt-10">
+          <div class="flex flex-col gap-2">
+            <label for="email" class="font-semibold ">
+              Email or Username
+            </label>
+
+            <input type="text" id="email" placeholder="Enter your email or username" class=" border border-[#AEAEAE] px-4 py-2 rounded-md ">
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label for="password" class="font-semibold">
+              Password
+            </label>
+
+            <input type="password" placeholder="Enter your password" class=" border border-[#AEAEAE] px-4 py-2 rounded-md ">
+          </div>
+        
+          <!-- Remember or Forgot -->
+          <div class="flex justify-between lg:my-2">
+            <div>
+              <input type="checkbox" id="remember" class="cursor-pointer">
+              <label for="remember" class="font-semibold cursor-pointer">Remember me</label>
+            </div>
+
+            <a href="#" class="font-semibold text-[#A259FF] hover:underline">Forgot Password?</a>
+          </div>
+
+          <button class="bg-[#A259FF] text-white rounded-md w-full h-[50px] font-bold cursor-pointer hover:bg-purple-600">Log In</button>
+        </div>
+
+        <!-- OR -->
+        <div class="text-center my-2">
+          <span class="text-[#AEAEAE] font-bold">OR</span>
+        </div>
+
+        <!-- google and facebook -->
+        <div>
+          <ul class="flex flex-col gap-3">
+            <li class="border border-[#CACACA] px-4 py-3 rounded-md">
+              <a href="#" class="flex items-center justify-center gap-1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" class="w-5 h-5"/>Continue with Google</a>
+            </li>
+
+            <li class="border border-[#CACACA] px-4 py-3 rounded-md">
+              <a href="#" class="flex items-center justify-center gap-1">
+                <i class="fa-brands fa-facebook text-blue-500 fa-xl"></i>
+                Continue with Facebook
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="text-[#AEAEAE80] my-5">
+
+        <div class="flex flex-col items-center text-center">
+          <p class="text-lg">Don't have an account? <a href="#" class="text-[#A259FF]">Sign Up</a> </p>
+
+          <p class="max-w-xs">By continuing, you agree to our
+            <a href="" class="text-[#A259FF]">Terms of Service</a>
+            and
+            <a href="" class="text-[#A259FF] ">Privacy Policy</a>
+          </p>
+        </div>
+
+
+      </div>
+
+    </div>
+    
+
+    <!-- Right Section -->
+
+    <hr class="text-[#AEAEAE80] my-5 lg:hidden">
+
+    <div class="flex flex-col gap-5 lg:w-2/3">
+
+      <div class="text-center lg:text-end">
+        <h2 class="text-3xl lg:text-4xl">
+          <i class="fa-solid fa-question text-[#5D7CEE]"></i>
+          Quizora
+        </h2>
+
+        <p class="text-[#A259FF] font-semibold">
+          Where curiosity meets competition
+        </p>
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-4 md:gap-6 lg:max-w-xl">
+
+        <!-- left Image -->
+        <div class="h-60 md:h-full ">
+          <img src="https://img.freepik.com/free-photo/young-student-woman-wearing-denim-jacket-eyeglasses-holding-colorful-folders-showing-thumb-up-pink_176532-13861.jpg?semt=ais_hybrid&w=740&q=80" alt="" 
+          class="h-full w-full object-cover rounded-md">
+        </div>
+
+        <!-- Right Image -->
+        <div class="flex md:flex-col gap-3">
+          <img src="https://files.123freevectors.com/wp-content/original/boy-studying-cartoon-illustration-blue-and-brown-173902189.png" alt="" 
+          class=" w-1/2 object-cover rounded-md ">
+
+          <img src="https://img.freepik.com/premium-vector/four-cartoon-children-sitting-table-with-books-reading-smiling-one-child-is-holding-book-up-another-is-standing-with-stack-books_657438-28491.jpg" alt=""
+           class=" w-1/2 object-cover opacity-50 rounded-md ">
+        </div>
+
+      </div>
+
+      <div class="flex flex-col items-center lg:items-end gap-2 lg:gap-4">
+        <h1 class="font-extrabold text-3xl lg:text-5xl text-center lg:text-right lg:max-w-xl">
+          Challenge your mind. Prove your knowledge.
+        </h1>
+
+        <p class="max-w-lg text-center lg:text-right lg:max-w-md">Quizora is a platform where users can play quizzes, track progress, and compete with others on a global scale.</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
